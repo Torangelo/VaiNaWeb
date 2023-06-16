@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    border:solid purple 10px
+}
+figure{
+    display: flex;
+    justify-content:center ;
+    background-color: tomato;
+    height: 90vh;
+}
+img{
+    width: 20vw;
+    height: 25vh;
+    
+}
+/* Justify content é o eixo :horizontal
+Flex-start: vai colocar os elements posicionados na extrema esquerda
+Center: vai posicionar os elementos no centro da nossa caixa no eixo x
+flex-end: vai posicionar os lementos na extrema direita na caixa no eixo x */
